@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: black;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+<body  class="bg-black">
+    <div id="title"><h1 class="heading">DOM learning yo</h1></div>
+    <p class="abc">Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
+
+<!--
+document.getElementById('title')
+<div id=​"title">​<h1 class=​"heading">​DOM learning yo​</h1>​</div>​
+const title = document.getElementById('title')
+undefined
+title
+<div id=​"title">​…​</div>​
+console.log(typeof title)
+VM341:1 object
+undefined
+title.style.backgroundColor = 'red'
+'red'
+title.style.backgroundColor = 'silver'
+'silver'
+title.textContent
+'DOM learning yo'
+title.innerHTML
+'<h1 class="heading">DOM learning yo</h1>'
+title.innerText
+'DOM learning yo'
+
+-->
